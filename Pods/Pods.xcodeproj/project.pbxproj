@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		036A00B3D244269EEC7F3D76424A05D1 /* GCDWebServerHTTPStatusCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 6430541CBDDD3530EF427CB4CBAB252C /* GCDWebServerHTTPStatusCodes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		05D120D5B811942BB1E375035C81AE63 /* GCDWebServerURLEncodedFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CF96C2D90FC78BEEB47A93E15A3B3286 /* GCDWebServerURLEncodedFormRequest.m */; };
+		065A9AB2C86746D78C52FFADD0A30568 /* GCDWebServerFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D2CEEFB50E9A5963C6E04F05D8A6E6B /* GCDWebServerFileResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		18072E1D0B9D7CFC0C6637313DF23C8E /* GCDWebServerConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C321383E35CE36134EF9076C94E1CB8 /* GCDWebServerConnection.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1CF34DDF47D22E4F0A1FDF2262C7A916 /* Pods-GCDWebServerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 638ADCB8BD8B5D64BAAD8FC94AFE8EDC /* Pods-GCDWebServerDemo-dummy.m */; };
+		3455767D7D2644355AE3FB5E7D0BD00D /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4F8DB7AD399F04B5B363F44CFA9938 /* GCDWebServerRequest.m */; };
+		417BF2471F249A8DF64448E178E4C97C /* GCDWebServerMultiPartFormRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = FE39B125E6F3A3445C8DA80E003C6A4A /* GCDWebServerMultiPartFormRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4420DA5EB6682FD8FB9FF2C9266F58C3 /* GCDWebServerErrorResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 897712B002385EF490D5F354F2132752 /* GCDWebServerErrorResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5C95908A617839E2710FD9A00468FE71 /* GCDWebServerDataResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = AC418FD2A55782B7AAFD5A9E711B08FA /* GCDWebServerDataResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		605CC883AFC37EE8942BA2B858510CFE /* GCDWebServer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C446F7C5B68A4A3B65B3951C4FE9A70 /* GCDWebServer-dummy.m */; };
+		6BCEF0F9DC6514CBF7555DD3F10343A0 /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A73F5FD52A054FA0B62EC3B6DE1867D4 /* GCDWebServerStreamedResponse.m */; };
+		6E67A48AD6ABE6BD29B08975DA61FBD0 /* GCDWebServerDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DC79130EF4B593122C08323CE3D20E /* GCDWebServerDataRequest.m */; };
+		71F6E03114BEB840BC6E53DF78241E26 /* GCDWebServerRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 64F1546C7595349490A192AFA132A5C0 /* GCDWebServerRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		73F6C41CDED09C90D710A55C8FD5457D /* GCDWebUploader.h in Headers */ = {isa = PBXBuildFile; fileRef = ECE0BE2EE681236B701C58EBC5E55EE4 /* GCDWebUploader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		76FCA6043F34B1DE9D33B77C615E6914 /* GCDWebServerStreamedResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = ACA3D54A0DD75A5E54A5EF840403A8EE /* GCDWebServerStreamedResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7A5812C6CB9DF643DDF6D49A2891F42D /* GCDWebServerResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = A58EED1209D94493A175795F73887A77 /* GCDWebServerResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7D9497493D7A39C6455573DA889129EE /* GCDWebServerFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E58C9E5A355356C3072374D423D6C553 /* GCDWebServerFileRequest.m */; };
+		891305627A60B07BB9D7CA3F81CB00FD /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 882C161F32F9A925BB2A2D54F25A352D /* GCDWebServerResponse.m */; };
+		95680B4FC6B236EEDCAE006DF513922C /* GCDWebServerDataRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CFB0FEFB5C4BC65961B7E1397BF74DC /* GCDWebServerDataRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9C05AF3FAA94767A9A660B74D4146847 /* GCDWebServerFileRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CA2560F0C05838D5096C11BAB888F5A /* GCDWebServerFileRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A01EFBDDB6BF2665B669714B9F44E440 /* GCDWebServerMultiPartFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F3FE30E976960F825B8719995C406B2D /* GCDWebServerMultiPartFormRequest.m */; };
+		A0EFAFE8DC60875D766EFFF0F821E990 /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C352574AD4673DFB5913F7742F6A773 /* GCDWebServerFileResponse.m */; };
+		A854E0BEE41BED5EF1965C511E68CFC9 /* GCDWebServerPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B5491CB30324A8AA36522FD24923152 /* GCDWebServerPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AC579AB7CEAB969B0E5A284347F9AEBF /* GCDWebServerFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = DB5FB5FBA9F261FE6CC27C79CB157482 /* GCDWebServerFunctions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B2EA7CA0C957344F1EFCB6CE6EA77939 /* GCDWebServerURLEncodedFormRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 276ED6AF39F5EAE1BAD5C30AE7636AF7 /* GCDWebServerURLEncodedFormRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BAE5687DAD6E700465B11A5697C6FDCA /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3718D69C2D27057225930D7881D8E49F /* GCDWebServerErrorResponse.m */; };
+		CC2FB3495A6A0D9E04C77FFDC11E92BA /* GCDWebUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3447A67B1BF55A85D878362346F26D /* GCDWebUploader.m */; };
+		D00BE18BB5736BD7F31081218DAE49F9 /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7730810118E275EC68BC0778F1882E6B /* GCDWebServerFunctions.m */; };
+		E16996C9DE1B585A5596702D56718696 /* GCDWebServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 89CB7B1B4B3367B0991E220906C7A453 /* GCDWebServer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E5674BF97570090069756ADC456F97D1 /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 61825703B8A3A2BF593843CDA525B706 /* GCDWebServer.m */; };
+		ED4866EAD24F5DDD94CB4C79531B949B /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = D04410B7337D4433151135E8E0F9B934 /* GCDWebServerConnection.m */; };
+		FEDCB1C22831FF23439A71BCFD211E09 /* GCDWebServerDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 988E9B054A2D621A39602056EA10596C /* GCDWebServerDataResponse.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1869F8021ABD9E4645DF3743767115A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD904F32069787EFB2DFFE05EB82F5BD;
+			remoteInfo = GCDWebServer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		036C7BF7A987C7C0BF5849E6610F4DBA /* Pods-GCDWebServerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GCDWebServerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		1B5491CB30324A8AA36522FD24923152 /* GCDWebServerPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerPrivate.h; path = GCDWebServer/Core/GCDWebServerPrivate.h; sourceTree = "<group>"; };
+		276ED6AF39F5EAE1BAD5C30AE7636AF7 /* GCDWebServerURLEncodedFormRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerURLEncodedFormRequest.h; path = GCDWebServer/Requests/GCDWebServerURLEncodedFormRequest.h; sourceTree = "<group>"; };
+		2D2CEEFB50E9A5963C6E04F05D8A6E6B /* GCDWebServerFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFileResponse.h; path = GCDWebServer/Responses/GCDWebServerFileResponse.h; sourceTree = "<group>"; };
+		3401F1804F64573704487601E8CE3CDE /* Pods-GCDWebServerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GCDWebServerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3718D69C2D27057225930D7881D8E49F /* GCDWebServerErrorResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerErrorResponse.m; path = GCDWebServer/Responses/GCDWebServerErrorResponse.m; sourceTree = "<group>"; };
+		3A3447A67B1BF55A85D878362346F26D /* GCDWebUploader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebUploader.m; path = GCDWebUploader/GCDWebUploader.m; sourceTree = "<group>"; };
+		458A88FDB8B06FD62543DC1976241562 /* GCDWebServer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCDWebServer-prefix.pch"; sourceTree = "<group>"; };
+		4CFB0FEFB5C4BC65961B7E1397BF74DC /* GCDWebServerDataRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerDataRequest.h; path = GCDWebServer/Requests/GCDWebServerDataRequest.h; sourceTree = "<group>"; };
+		5A4F8DB7AD399F04B5B363F44CFA9938 /* GCDWebServerRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerRequest.m; path = GCDWebServer/Core/GCDWebServerRequest.m; sourceTree = "<group>"; };
+		5C321383E35CE36134EF9076C94E1CB8 /* GCDWebServerConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerConnection.h; path = GCDWebServer/Core/GCDWebServerConnection.h; sourceTree = "<group>"; };
+		5C352574AD4673DFB5913F7742F6A773 /* GCDWebServerFileResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFileResponse.m; path = GCDWebServer/Responses/GCDWebServerFileResponse.m; sourceTree = "<group>"; };
+		5C446F7C5B68A4A3B65B3951C4FE9A70 /* GCDWebServer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GCDWebServer-dummy.m"; sourceTree = "<group>"; };
+		61825703B8A3A2BF593843CDA525B706 /* GCDWebServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServer.m; path = GCDWebServer/Core/GCDWebServer.m; sourceTree = "<group>"; };
+		638ADCB8BD8B5D64BAAD8FC94AFE8EDC /* Pods-GCDWebServerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GCDWebServerDemo-dummy.m"; sourceTree = "<group>"; };
+		6430541CBDDD3530EF427CB4CBAB252C /* GCDWebServerHTTPStatusCodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerHTTPStatusCodes.h; path = GCDWebServer/Core/GCDWebServerHTTPStatusCodes.h; sourceTree = "<group>"; };
+		64F1546C7595349490A192AFA132A5C0 /* GCDWebServerRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerRequest.h; path = GCDWebServer/Core/GCDWebServerRequest.h; sourceTree = "<group>"; };
+		7730810118E275EC68BC0778F1882E6B /* GCDWebServerFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFunctions.m; path = GCDWebServer/Core/GCDWebServerFunctions.m; sourceTree = "<group>"; };
+		7CA2560F0C05838D5096C11BAB888F5A /* GCDWebServerFileRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFileRequest.h; path = GCDWebServer/Requests/GCDWebServerFileRequest.h; sourceTree = "<group>"; };
+		7EB0E8F64A398E868520525438FA24B3 /* libPods-GCDWebServerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GCDWebServerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		824C765D5E36E026FE0E8F7D5F92BCBA /* GCDWebServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GCDWebServer.debug.xcconfig; sourceTree = "<group>"; };
+		882C161F32F9A925BB2A2D54F25A352D /* GCDWebServerResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerResponse.m; path = GCDWebServer/Core/GCDWebServerResponse.m; sourceTree = "<group>"; };
+		897712B002385EF490D5F354F2132752 /* GCDWebServerErrorResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerErrorResponse.h; path = GCDWebServer/Responses/GCDWebServerErrorResponse.h; sourceTree = "<group>"; };
+		89CB7B1B4B3367B0991E220906C7A453 /* GCDWebServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServer.h; path = GCDWebServer/Core/GCDWebServer.h; sourceTree = "<group>"; };
+		988E9B054A2D621A39602056EA10596C /* GCDWebServerDataResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerDataResponse.m; path = GCDWebServer/Responses/GCDWebServerDataResponse.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A58EED1209D94493A175795F73887A77 /* GCDWebServerResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerResponse.h; path = GCDWebServer/Core/GCDWebServerResponse.h; sourceTree = "<group>"; };
+		A73F5FD52A054FA0B62EC3B6DE1867D4 /* GCDWebServerStreamedResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerStreamedResponse.m; path = GCDWebServer/Responses/GCDWebServerStreamedResponse.m; sourceTree = "<group>"; };
+		A7DC79130EF4B593122C08323CE3D20E /* GCDWebServerDataRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerDataRequest.m; path = GCDWebServer/Requests/GCDWebServerDataRequest.m; sourceTree = "<group>"; };
+		ABC157F5A491A883EE97BB505D52520E /* GCDWebUploader.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GCDWebUploader.bundle; path = GCDWebUploader/GCDWebUploader.bundle; sourceTree = "<group>"; };
+		AC418FD2A55782B7AAFD5A9E711B08FA /* GCDWebServerDataResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerDataResponse.h; path = GCDWebServer/Responses/GCDWebServerDataResponse.h; sourceTree = "<group>"; };
+		ACA3D54A0DD75A5E54A5EF840403A8EE /* GCDWebServerStreamedResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerStreamedResponse.h; path = GCDWebServer/Responses/GCDWebServerStreamedResponse.h; sourceTree = "<group>"; };
+		AE4AC4C6B78615DDEE21B10524DA5D0A /* Pods-GCDWebServerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GCDWebServerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		B68C1052A3B51DBCF7D960F898AAFA95 /* libGCDWebServer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGCDWebServer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB949FF32178F44BC5E009518A32409B /* Pods-GCDWebServerDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GCDWebServerDemo-resources.sh"; sourceTree = "<group>"; };
+		C48193DD01F6C0AEECAE073679ACEEA7 /* GCDWebServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GCDWebServer.release.xcconfig; sourceTree = "<group>"; };
+		CF12306B7AC576EE52209C127A41603C /* Pods-GCDWebServerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GCDWebServerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CF96C2D90FC78BEEB47A93E15A3B3286 /* GCDWebServerURLEncodedFormRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerURLEncodedFormRequest.m; path = GCDWebServer/Requests/GCDWebServerURLEncodedFormRequest.m; sourceTree = "<group>"; };
+		D04410B7337D4433151135E8E0F9B934 /* GCDWebServerConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerConnection.m; path = GCDWebServer/Core/GCDWebServerConnection.m; sourceTree = "<group>"; };
+		DB5FB5FBA9F261FE6CC27C79CB157482 /* GCDWebServerFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFunctions.h; path = GCDWebServer/Core/GCDWebServerFunctions.h; sourceTree = "<group>"; };
+		E58C9E5A355356C3072374D423D6C553 /* GCDWebServerFileRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFileRequest.m; path = GCDWebServer/Requests/GCDWebServerFileRequest.m; sourceTree = "<group>"; };
+		ECE0BE2EE681236B701C58EBC5E55EE4 /* GCDWebUploader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebUploader.h; path = GCDWebUploader/GCDWebUploader.h; sourceTree = "<group>"; };
+		F3FE30E976960F825B8719995C406B2D /* GCDWebServerMultiPartFormRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerMultiPartFormRequest.m; path = GCDWebServer/Requests/GCDWebServerMultiPartFormRequest.m; sourceTree = "<group>"; };
+		FE39B125E6F3A3445C8DA80E003C6A4A /* GCDWebServerMultiPartFormRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerMultiPartFormRequest.h; path = GCDWebServer/Requests/GCDWebServerMultiPartFormRequest.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88F367A8C6AFD41E82C3C117B1EE085C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B180B8B575C4CCB7F85A8510678D71A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C018D386AE162166994C4687ED45C20 /* Pods-GCDWebServerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CF12306B7AC576EE52209C127A41603C /* Pods-GCDWebServerDemo-acknowledgements.markdown */,
+				AE4AC4C6B78615DDEE21B10524DA5D0A /* Pods-GCDWebServerDemo-acknowledgements.plist */,
+				638ADCB8BD8B5D64BAAD8FC94AFE8EDC /* Pods-GCDWebServerDemo-dummy.m */,
+				BB949FF32178F44BC5E009518A32409B /* Pods-GCDWebServerDemo-resources.sh */,
+				3401F1804F64573704487601E8CE3CDE /* Pods-GCDWebServerDemo.debug.xcconfig */,
+				036C7BF7A987C7C0BF5849E6610F4DBA /* Pods-GCDWebServerDemo.release.xcconfig */,
+			);
+			name = "Pods-GCDWebServerDemo";
+			path = "Target Support Files/Pods-GCDWebServerDemo";
+			sourceTree = "<group>";
+		};
+		2FDD662E5F3A3B42B66C923E4E722519 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C018D386AE162166994C4687ED45C20 /* Pods-GCDWebServerDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7688C3FBCA2247470C6C9FED9CF1618D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B68C1052A3B51DBCF7D960F898AAFA95 /* libGCDWebServer.a */,
+				7EB0E8F64A398E868520525438FA24B3 /* libPods-GCDWebServerDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C38C8FC1FE7432F2F1086FB5BBBB983C /* WebUploader */ = {
+			isa = PBXGroup;
+			children = (
+				ECE0BE2EE681236B701C58EBC5E55EE4 /* GCDWebUploader.h */,
+				3A3447A67B1BF55A85D878362346F26D /* GCDWebUploader.m */,
+				EA7B2323A9B8F8B497C2FAAD3C6869FE /* Resources */,
+			);
+			name = WebUploader;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				F36D3AB54C5C87A54D39C89E4DC7F6D3 /* Pods */,
+				7688C3FBCA2247470C6C9FED9CF1618D /* Products */,
+				2FDD662E5F3A3B42B66C923E4E722519 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D6E30FB652B0E81F94C6FE77BFEA2224 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C446F7C5B68A4A3B65B3951C4FE9A70 /* GCDWebServer-dummy.m */,
+				458A88FDB8B06FD62543DC1976241562 /* GCDWebServer-prefix.pch */,
+				824C765D5E36E026FE0E8F7D5F92BCBA /* GCDWebServer.debug.xcconfig */,
+				C48193DD01F6C0AEECAE073679ACEEA7 /* GCDWebServer.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GCDWebServer";
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA7B2323A9B8F8B497C2FAAD3C6869FE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ABC157F5A491A883EE97BB505D52520E /* GCDWebUploader.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EB94DC5BCC12AF6DFEEAA6A56173235B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				89CB7B1B4B3367B0991E220906C7A453 /* GCDWebServer.h */,
+				61825703B8A3A2BF593843CDA525B706 /* GCDWebServer.m */,
+				5C321383E35CE36134EF9076C94E1CB8 /* GCDWebServerConnection.h */,
+				D04410B7337D4433151135E8E0F9B934 /* GCDWebServerConnection.m */,
+				4CFB0FEFB5C4BC65961B7E1397BF74DC /* GCDWebServerDataRequest.h */,
+				A7DC79130EF4B593122C08323CE3D20E /* GCDWebServerDataRequest.m */,
+				AC418FD2A55782B7AAFD5A9E711B08FA /* GCDWebServerDataResponse.h */,
+				988E9B054A2D621A39602056EA10596C /* GCDWebServerDataResponse.m */,
+				897712B002385EF490D5F354F2132752 /* GCDWebServerErrorResponse.h */,
+				3718D69C2D27057225930D7881D8E49F /* GCDWebServerErrorResponse.m */,
+				7CA2560F0C05838D5096C11BAB888F5A /* GCDWebServerFileRequest.h */,
+				E58C9E5A355356C3072374D423D6C553 /* GCDWebServerFileRequest.m */,
+				2D2CEEFB50E9A5963C6E04F05D8A6E6B /* GCDWebServerFileResponse.h */,
+				5C352574AD4673DFB5913F7742F6A773 /* GCDWebServerFileResponse.m */,
+				DB5FB5FBA9F261FE6CC27C79CB157482 /* GCDWebServerFunctions.h */,
+				7730810118E275EC68BC0778F1882E6B /* GCDWebServerFunctions.m */,
+				6430541CBDDD3530EF427CB4CBAB252C /* GCDWebServerHTTPStatusCodes.h */,
+				FE39B125E6F3A3445C8DA80E003C6A4A /* GCDWebServerMultiPartFormRequest.h */,
+				F3FE30E976960F825B8719995C406B2D /* GCDWebServerMultiPartFormRequest.m */,
+				1B5491CB30324A8AA36522FD24923152 /* GCDWebServerPrivate.h */,
+				64F1546C7595349490A192AFA132A5C0 /* GCDWebServerRequest.h */,
+				5A4F8DB7AD399F04B5B363F44CFA9938 /* GCDWebServerRequest.m */,
+				A58EED1209D94493A175795F73887A77 /* GCDWebServerResponse.h */,
+				882C161F32F9A925BB2A2D54F25A352D /* GCDWebServerResponse.m */,
+				ACA3D54A0DD75A5E54A5EF840403A8EE /* GCDWebServerStreamedResponse.h */,
+				A73F5FD52A054FA0B62EC3B6DE1867D4 /* GCDWebServerStreamedResponse.m */,
+				276ED6AF39F5EAE1BAD5C30AE7636AF7 /* GCDWebServerURLEncodedFormRequest.h */,
+				CF96C2D90FC78BEEB47A93E15A3B3286 /* GCDWebServerURLEncodedFormRequest.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		EE9DAA240B66B4100ED67E32FE7116F2 /* GCDWebServer */ = {
+			isa = PBXGroup;
+			children = (
+				EB94DC5BCC12AF6DFEEAA6A56173235B /* Core */,
+				D6E30FB652B0E81F94C6FE77BFEA2224 /* Support Files */,
+				C38C8FC1FE7432F2F1086FB5BBBB983C /* WebUploader */,
+			);
+			path = GCDWebServer;
+			sourceTree = "<group>";
+		};
+		F36D3AB54C5C87A54D39C89E4DC7F6D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE9DAA240B66B4100ED67E32FE7116F2 /* GCDWebServer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		39DFA5ACBA741EBB261F2A71CDE00F1D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16996C9DE1B585A5596702D56718696 /* GCDWebServer.h in Headers */,
+				18072E1D0B9D7CFC0C6637313DF23C8E /* GCDWebServerConnection.h in Headers */,
+				95680B4FC6B236EEDCAE006DF513922C /* GCDWebServerDataRequest.h in Headers */,
+				5C95908A617839E2710FD9A00468FE71 /* GCDWebServerDataResponse.h in Headers */,
+				4420DA5EB6682FD8FB9FF2C9266F58C3 /* GCDWebServerErrorResponse.h in Headers */,
+				9C05AF3FAA94767A9A660B74D4146847 /* GCDWebServerFileRequest.h in Headers */,
+				065A9AB2C86746D78C52FFADD0A30568 /* GCDWebServerFileResponse.h in Headers */,
+				AC579AB7CEAB969B0E5A284347F9AEBF /* GCDWebServerFunctions.h in Headers */,
+				036A00B3D244269EEC7F3D76424A05D1 /* GCDWebServerHTTPStatusCodes.h in Headers */,
+				417BF2471F249A8DF64448E178E4C97C /* GCDWebServerMultiPartFormRequest.h in Headers */,
+				A854E0BEE41BED5EF1965C511E68CFC9 /* GCDWebServerPrivate.h in Headers */,
+				71F6E03114BEB840BC6E53DF78241E26 /* GCDWebServerRequest.h in Headers */,
+				7A5812C6CB9DF643DDF6D49A2891F42D /* GCDWebServerResponse.h in Headers */,
+				76FCA6043F34B1DE9D33B77C615E6914 /* GCDWebServerStreamedResponse.h in Headers */,
+				B2EA7CA0C957344F1EFCB6CE6EA77939 /* GCDWebServerURLEncodedFormRequest.h in Headers */,
+				73F6C41CDED09C90D710A55C8FD5457D /* GCDWebUploader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46E990C7A6C611C60A756BF47821A1A3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		96AC135352BEDFB6AA1EFE1465FC0790 /* Pods-GCDWebServerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34A3B9153C72B85AC68A8A1A4F80F1FD /* Build configuration list for PBXNativeTarget "Pods-GCDWebServerDemo" */;
+			buildPhases = (
+				46E990C7A6C611C60A756BF47821A1A3 /* Headers */,
+				68699CE132171EDF6E95C00210DB8D36 /* Sources */,
+				B180B8B575C4CCB7F85A8510678D71A2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F869F7197B5B64122E9E9E2FDAD5D6DD /* PBXTargetDependency */,
+			);
+			name = "Pods-GCDWebServerDemo";
+			productName = "Pods-GCDWebServerDemo";
+			productReference = 7EB0E8F64A398E868520525438FA24B3 /* libPods-GCDWebServerDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AD904F32069787EFB2DFFE05EB82F5BD /* GCDWebServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10AE316EE32DFA6AD315B929E39C8EA9 /* Build configuration list for PBXNativeTarget "GCDWebServer" */;
+			buildPhases = (
+				39DFA5ACBA741EBB261F2A71CDE00F1D /* Headers */,
+				0BC4DAF49F4692BD1AD5A19B2CB9088D /* Sources */,
+				88F367A8C6AFD41E82C3C117B1EE085C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GCDWebServer;
+			productName = GCDWebServer;
+			productReference = B68C1052A3B51DBCF7D960F898AAFA95 /* libGCDWebServer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1200;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7688C3FBCA2247470C6C9FED9CF1618D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD904F32069787EFB2DFFE05EB82F5BD /* GCDWebServer */,
+				96AC135352BEDFB6AA1EFE1465FC0790 /* Pods-GCDWebServerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BC4DAF49F4692BD1AD5A19B2CB9088D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605CC883AFC37EE8942BA2B858510CFE /* GCDWebServer-dummy.m in Sources */,
+				E5674BF97570090069756ADC456F97D1 /* GCDWebServer.m in Sources */,
+				ED4866EAD24F5DDD94CB4C79531B949B /* GCDWebServerConnection.m in Sources */,
+				6E67A48AD6ABE6BD29B08975DA61FBD0 /* GCDWebServerDataRequest.m in Sources */,
+				FEDCB1C22831FF23439A71BCFD211E09 /* GCDWebServerDataResponse.m in Sources */,
+				BAE5687DAD6E700465B11A5697C6FDCA /* GCDWebServerErrorResponse.m in Sources */,
+				7D9497493D7A39C6455573DA889129EE /* GCDWebServerFileRequest.m in Sources */,
+				A0EFAFE8DC60875D766EFFF0F821E990 /* GCDWebServerFileResponse.m in Sources */,
+				D00BE18BB5736BD7F31081218DAE49F9 /* GCDWebServerFunctions.m in Sources */,
+				A01EFBDDB6BF2665B669714B9F44E440 /* GCDWebServerMultiPartFormRequest.m in Sources */,
+				3455767D7D2644355AE3FB5E7D0BD00D /* GCDWebServerRequest.m in Sources */,
+				891305627A60B07BB9D7CA3F81CB00FD /* GCDWebServerResponse.m in Sources */,
+				6BCEF0F9DC6514CBF7555DD3F10343A0 /* GCDWebServerStreamedResponse.m in Sources */,
+				05D120D5B811942BB1E375035C81AE63 /* GCDWebServerURLEncodedFormRequest.m in Sources */,
+				CC2FB3495A6A0D9E04C77FFDC11E92BA /* GCDWebUploader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68699CE132171EDF6E95C00210DB8D36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF34DDF47D22E4F0A1FDF2262C7A916 /* Pods-GCDWebServerDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F869F7197B5B64122E9E9E2FDAD5D6DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GCDWebServer;
+			target = AD904F32069787EFB2DFFE05EB82F5BD /* GCDWebServer */;
+			targetProxy = 1869F8021ABD9E4645DF3743767115A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05C16906418C73F9AFF4292AC82A3F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 824C765D5E36E026FE0E8F7D5F92BCBA /* GCDWebServer.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GCDWebServer/GCDWebServer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GCDWebServer;
+				PRODUCT_NAME = GCDWebServer;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0CE62820B3F93AC3F395B9A83A92A34C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3401F1804F64573704487601E8CE3CDE /* Pods-GCDWebServerDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6966C6D2FD97481957CD16012A76A17A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 036C7BF7A987C7C0BF5849E6610F4DBA /* Pods-GCDWebServerDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		975C30D45A7E9F1D56DCF595311040A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C48193DD01F6C0AEECAE073679ACEEA7 /* GCDWebServer.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GCDWebServer/GCDWebServer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GCDWebServer;
+				PRODUCT_NAME = GCDWebServer;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF1F8D2941B0228930706FA0F2C9BB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10AE316EE32DFA6AD315B929E39C8EA9 /* Build configuration list for PBXNativeTarget "GCDWebServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05C16906418C73F9AFF4292AC82A3F1E /* Debug */,
+				975C30D45A7E9F1D56DCF595311040A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34A3B9153C72B85AC68A8A1A4F80F1FD /* Build configuration list for PBXNativeTarget "Pods-GCDWebServerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CE62820B3F93AC3F395B9A83A92A34C /* Debug */,
+				6966C6D2FD97481957CD16012A76A17A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */,
+				AF1F8D2941B0228930706FA0F2C9BB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
